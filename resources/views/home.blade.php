@@ -43,6 +43,5 @@
         </table>
         <a href="{{route('library.create')}}"><button type="submit" class="addbtn">Add New Book</button></a>
     </div>
-
 </body>
 </html>
