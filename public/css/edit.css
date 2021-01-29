@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    color: black;
+    font-size: 20px;
+    padding: 4px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    width: 700px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.atas, .turunkan{
+    display: flex;
+    flex-direction: column;
+}
+.atas{
+    width: 80%;
+}
+.invalid-feedback{
+    color: red;
+}
+.sampingkan{
+    display: flex;
+    justify-content: space-between;
+}
+.labelnya, .inputnya{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+label{
+    font-size: 24px;
+    padding: 3px;
+}
+.tulisannya{
+    font-size: 26px;
+}
+a{
+    text-decoration: none;
+}
+.editbtn, .backbtn{
+    padding: 5px;
+    border: none;
+    transition: 0.2s;
+    border-radius: 15px;
+    width: 75px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.editbtn{
+    background-color: rgb(20, 112, 112);
+}
+.backbtn{
+    background-color: rgb(105, 16, 34);
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+    left: 125px;
+}
+.tombol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+.editbtn:hover, .backbtn:hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.editbtn:hover{
+    background-color: rgb(13, 70, 70);
+}
+.backbtn:hover{
+    background-color: rgb(58, 8, 18);
+}

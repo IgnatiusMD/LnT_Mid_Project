@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+tbody tr{
+    transition: 0.2s;
+}
+tbody tr:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.2s;
+}
+.library-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+.library-txt{
+    font-size: 36px;
+}
+.tabelnya{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    border: 2px solid white;
+    text-align: center;
+    width: 700px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.editbtn{
+    background-color: rgb(16, 16, 100);
+    padding: 3px;
+    border: none;
+    transition: 0.2s;
+}
+.editbtn:hover{
+    cursor: pointer;
+    background-color: rgb(9, 9, 53);
+    transition: 0.2s;
+}
+.deletebtn{
+    background-color: rgb(105, 16, 34);
+    padding: 3px;
+    border: none;
+    transition: 0.2s;
+}
+.deletebtn:hover{
+    cursor: pointer;
+    background-color: rgb(58, 8, 18);
+    transition: 0.2s;
+}
+.addbtn{
+    background-color: rgb(20, 112, 112);
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    transition: 0.2s;
+    font-size: 24px;
+}
+.addbtn:hover{
+    cursor: pointer;
+    background-color: rgb(13, 70, 70);
+    transition: 0.2s;
+}
